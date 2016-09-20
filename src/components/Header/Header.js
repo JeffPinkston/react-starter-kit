@@ -43,7 +43,6 @@ const messages = defineMessages({
 
 function Header() {
   return (
-<<<<<<< HEAD
     <div className={s.root}>
       <div className={s.container}>
         <Navigation className={s.nav} />
@@ -62,26 +61,6 @@ function Header() {
         </div>
       </div>
     </div>
-=======
-    <Navbar>
-      <Navbar.Header>
-        <Navbar.Brand>
-          <Link className={s.brand} to="/">Your Company</Link>
-        </Navbar.Brand>
-      </Navbar.Header>
-      <Nav>
-        <NavItem eventKey={1} href="#">Link</NavItem>
-        <NavItem eventKey={2} href="#">Link</NavItem>
-        <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
-          <MenuItem eventKey={3.1}>Action</MenuItem>
-          <MenuItem eventKey={3.2}>Another action</MenuItem>
-          <MenuItem eventKey={3.3}>Something else here</MenuItem>
-          <MenuItem divider />
-          <MenuItem eventKey={3.3}>Separated link</MenuItem>
-        </NavDropdown>
-      </Nav>
-    </Navbar>
->>>>>>> feature/bootstrap3
   );
 }
 

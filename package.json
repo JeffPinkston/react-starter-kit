@@ -86,6 +86,7 @@
     "gaze": "^1.1.1",
     "git-repository": "^0.1.4",
     "glob": "^7.0.6",
+    "graphiql": "^0.7.8",
     "json-loader": "^0.5.4",
     "mkdirp": "^0.5.1",
     "mocha": "^3.0.2",
